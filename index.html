@@ -3,7 +3,6 @@
     
     <meta charset = "UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
-    <meta name = "viewport" content = "width-device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "style.css">
     <script src = "https://kit.fontawesome.com/51c7e3f1d1.js" crossorigin = "anonymous"></script>
     
@@ -48,11 +47,11 @@
                 
                 <div id = "text_block">
                     
-                    <h3> This is my <big style="background-color: lightgreen;">dog</big></h3>
+                    <h3> This is my dog, <big style="background-color: lightgreen;">Po</big></h3>
                     <p id = "Po"> He loves to bark</p>
 
-                    <button onclick = "Change()" style = "font-size : 25px">
-                    <b>Woof Woof!</b>
+                    <button id = "change1">
+                    <p>Bark!</p>
                     </button>
                 
                 </div>
@@ -86,7 +85,9 @@
             <br>
 
             <div id = "title1">
+
                 <h3> Fill out this form for free money !!! </h3>
+
             </div>
 
             <form action = "index.php" method = "POST" id = "inp">
@@ -115,6 +116,7 @@
                 <input type = "radio" id = "Female" value = "Female" name = "Gender">
 
                 <br>
+                <br>
 
                 <label for = "feedback">Feedback:</label>
                 <textarea id = "feedback" rows = "3" cols = "30"></textarea>
@@ -130,17 +132,19 @@
                 <input type = "submit">
 
             </form>
-
-            <br>
-            <br>
             
             <span id = "game1">
                 
                 <label for = "trbgame"> Terrobyte is very</label>
                 <select id = "trbgame">
+
+                    <option value = "" selected disabled hidden>___________</option>
                     <option value = "handsome">handsome</option>
                     <option value = "ugly">ugly</option>
+
                 </select>
+
+                <p id = "gameoutput"></p> 
             
             </span>
             
@@ -162,14 +166,5 @@
     </body>
     
     <script src = "script.js"></script>
-
-    <script>
-
-        function Change()
-        {
-            document.getElementById("Po").innerHTML = "He really does";
-        }
-
-    </script>
 
 </html>
