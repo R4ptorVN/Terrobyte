@@ -6,8 +6,8 @@
 
 @font-face
 {
-    src: url(fonts/Gabriela-Regular.ttf);
-    font-family: Gabriel;
+    src: url(fonts/Oswald-Regular.ttf);
+    font-family: Oswald;
 }
 
 button
@@ -82,19 +82,45 @@ header
 #text_block
 {
     float: right;
-    width: 300px;
+    width: 350px;
     margin-top: 100px;
     margin-right: 0px;
     margin-left: 30px;
     font-size: 25px;
 }
 
+#Po
+{
+    font-size: 30px;
+}
+
+#change1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#change1 p
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#change1:hover
+{
+    background-color: white;
+}
+
+#change1:active
+{
+    background-color: rgb(203, 197, 197);
+}
+
 #pic1
 {
     float: right;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 70px;
+    margin-top: 10px;
     margin-left: 0px;
     height: 400px
 }
@@ -134,7 +160,7 @@ header
     border-right: 8px solid blue;
     border-bottom: 8px solid green;
     border-left: 8px solid yellow;
-    align-items: center;
+    text-align: center;
     text-shadow: 3px 3px 10px;
     font-size: 35px;
     font-family: cursive;
@@ -174,19 +200,32 @@ header
 #game1
 {
     display: block;
-    font-size: 35px;
-    font-family: Gabriel;
-    margin-left: 750px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 700px;
+    margin-left: auto;
     margin-right: 0px;
     margin-bottom: 0px;
 }
 
 #trbgame
 {
-    font-size: 35px;
-    font-family: Gabriel;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: none;
     border-style: none;
+}
+
+#trbgame select::-ms-expand
+{
+    display: none;
+}
+
+#trbgame option
+{
+    background-color: rgb(165, 212, 243);
 }
 
 footer
