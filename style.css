@@ -1,0 +1,303 @@
+@font-face
+{
+    src: url(fonts/Anta-Regular.ttf);
+    font-family: Anta;
+}
+
+@font-face
+{
+    src: url(fonts/Oswald-Regular.ttf);
+    font-family: Oswald;
+}
+
+button
+{
+      cursor: pointer;
+}
+
+body
+{
+    font-family: "lucida console";
+    background-image: url(images/homebackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header
+{
+    text-align: center;
+    text-shadow: 3px 3px 6px blue;
+    border-style: double;
+    font-family: Anta, Arial;
+    font-size: 25px;
+    background-color:aquamarine;
+    border-radius: 20px;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+    border-style: none;
+    background-color: cadetblue;
+    padding: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    width: 262px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.navbar li
+{
+    float: left;
+}
+
+.navbar a
+{
+    color: black;
+    font-family: Anta;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.navbar a:hover
+{
+    background-color: rgb(128, 193, 197);
+}
+
+#combine1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 175px;
+    width: 750px;
+}
+
+#text_block
+{
+    width: 525px;
+    margin-top: 100px;
+    display: block;
+    font-size: 25px;
+}
+
+#Po
+{
+    font-size: 30px;
+}
+
+#change1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#change1 p
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#change1:hover
+{
+    background-color: white;
+}
+
+#change1:active
+{
+    background-color: rgb(203, 197, 197);
+}
+
+#pic1
+{
+    float: right;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px
+}
+
+#pic1:hover
+{
+    border-style: solid;
+    border-color: magenta;
+    border-width: 5px;
+}
+
+.social-media
+{
+    float: left;
+    margin-top: -350px;
+    margin-right: 0px;
+}
+
+.social-media a
+{
+    display: block;
+    margin-left: 3px;
+    padding: 10px;
+}
+
+#moltitle
+{
+    text-decoration: none;
+}
+
+#purple_button 
+{
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-top: 8px solid red;
+    border-right: 8px solid blue;
+    border-bottom: 8px solid green;
+    border-left: 8px solid yellow;
+    text-align: center;
+    text-shadow: 3px 3px 10px;
+    font-size: 35px;
+    font-family: cursive;
+    border-radius: 30px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+#purple_button:hover
+{
+    background-color: pink;
+}
+
+
+#title1
+{
+    width: 400px;
+    border-style: dashed;
+    font-size: 20px;
+    font-family: Cambria;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+#inp
+{
+     float: left;
+     font-size: 20px;
+     margin-left: 10px;
+}
+
+#inp input
+{
+    margin-bottom: 2px;
+}
+
+#game1
+{
+    height: 300px;
+    display: block;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#trbgame
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
+    border-style: none;
+}
+
+#trbgame select::-ms-expand
+{
+    display: none;
+}
+
+#trbgame option
+{
+    background-color: rgb(165, 212, 243);
+}
+
+#gameoutput img
+{
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+footer
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding-left: 15px;
+    font-family: "courier new";
+    font-size: 15px;
+    margin-top: 70px;
+    color: rgb(210, 50, 50);
+    background-color:aquamarine;
+}
+
+.fa-solid.fa-house
+{
+    color: #21e8a6;
+}
+
+.fa-brands.fa-facebook
+{
+    color: #412dd7;
+}
+
+.fa-brands.fa-facebook:hover
+{
+    color: #7c71ce;
+}
+
+.fa-brands.fa-youtube
+{
+    color: #da0b0b;
+}
+
+.fa-brands.fa-youtube:hover
+{
+    color: #eb7e7e;
+}
+
+.fa-brands.fa-x-twitter
+{
+    color:#020101
+}
+
+.fa-brands.fa-x-twitter:hover
+{
+    color:#585757df
+}
+
+.fa-brands.fa-github
+{
+    color:#1b1a1a
+}
+
+.fa-brands.fa-github:hover
+{
+    color:#585757df
+}
+
+
