@@ -1,5 +1,3 @@
-const change1btn = document.getElementById("change1");
-
 let statuschange1 = 0;
 function ChangeStatus()
 {
