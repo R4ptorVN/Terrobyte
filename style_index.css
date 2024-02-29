@@ -4,12 +4,6 @@
     font-family: Anta;
 }
 
-@font-face
-{
-    src: url(fonts/Oswald-Regular.ttf);
-    font-family: Oswald;
-}
-
 button
 {
       cursor: pointer;
@@ -134,7 +128,6 @@ header
 
 .social-media
 {
-    float: left;
     margin-top: -350px;
     margin-right: 0px;
 }

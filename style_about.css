@@ -1,0 +1,119 @@
+@font-face
+{
+    src: url(fonts/Anta-Regular.ttf);
+    font-family: Anta;
+}
+
+@font-face
+{
+    src: url(fonts/Roboto-Black.ttf);
+    font-family: RobotoBlack;
+}
+
+@font-face
+{
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: Roboto;
+}
+
+body
+{
+    background-image: url(images/aboutbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header
+{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px rgb(0, 251, 255);
+    border-style: double;
+    font-family: Anta, Arial;
+    font-size: 25px;
+    background-color: darkblue;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+    border-style: none;
+    background-color: rgb(58, 40, 218);
+    padding: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    width: 262px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.navbar li
+{
+    float: left;
+}
+
+.navbar a
+{
+    color: black;
+    font-family: Anta;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.navbar a:hover
+{
+    background-color: rgb(84, 80, 209)
+}
+
+#HoSyPhat
+{
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+    height: 350px;
+    width: 500px;
+    border-color:rgb(32, 46, 238);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#FirstWord
+{
+    font-family: RobotoBlack;
+    font-size: 40px;
+    text-shadow: 2px 2px 10px rgb(21, 17, 248);
+    color: whitesmoke;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#Introduction
+{
+   font-family: Roboto;
+   font-size: 25px;
+   text-shadow: 2px 2px 7px rgb(21, 17, 248);
+   color: whitesmoke;
+   width: 500px;
+   margin-left: 200px;
+   line-height: 35px;
+}
+
+
+
+.fa-solid.fa-house
+{
+    color: #130f7d;
+}
