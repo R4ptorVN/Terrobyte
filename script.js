@@ -1,32 +1,47 @@
-let statuschange1 = 0;
+let StatusChange1 = 0;
+
 function ChangeStatus()
 {
-    statuschange1++;
-    if(statuschange1 == 51)
+    StatusChange1++;
+    if(StatusChange1 == 51)
     {
         document.getElementById("Po").textContent =  `Oh no! Po is out of breathe!`;
         document.getElementById("change1").textContent = `Feed him some water!`;
     }
-    else if(statuschange1 > 51)
+    else if(StatusChange1 > 51)
     {
-        statuschange1 = 0;
-        document.getElementById("Po").textContent = `Woof Woof! x ${statuschange1}`;
+        StatusChange1 = 0;
+        document.getElementById("Po").textContent = `Woof Woof! x ${StatusChange1}`;
         document.getElementById("change1").textContent = `Bark!`;
     }
     else
     {
-        document.getElementById("Po").textContent = `Woof Woof! x ${statuschange1}`;
+        document.getElementById("Po").textContent = `Woof Woof! x ${StatusChange1}`;
     }
 }
 
 function GetOption()
 {
-    const gameoutput = document.getElementById("gameoutput");
-    const gameresult = document.getElementById("trbgame").value;    
-    if(gameresult == "handsome")
-       gameoutput.innerHTML = (`<img src = "images/ThumbsUp.png">`);
-    if(gameresult == "unattractive")
-       gameoutput.innerHTML = (`<img src = "images/Despair.png">`);
+    const GameOutput = document.getElementById("gameoutput");
+    const GameResult = document.getElementById("trbgame").value;    
+    if(GameResult == "handsome")
+        GameOutput.innerHTML = (`<img src = "images/ThumbsUp.png">`);
+    if(GameResult == "unattractive")
+        GameOutput.innerHTML = (`<img src = "images/Despair.png">`);
+}
+
+let Hobbies = [];
+Hobbies.push(`<img src = "images/Billards.jpg">`);
+
+let StatusChange2 = 0;
+
+function SlideRight()
+{
+    StatusChange2++;
+    if(StatusChange2 % 2 != 0)
+        document.getElementById("Hobby").textContent = `Video Games`;
+    else
+        document.getElementById("Hobby").textContent = `Billards`;
 }
 
 

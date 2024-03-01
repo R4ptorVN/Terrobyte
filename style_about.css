@@ -161,6 +161,67 @@ header
     border-color: rgb(169, 169, 235);
 }
 
+.prev
+{
+    background-color: rgb(69, 56, 210);
+    cursor: pointer;
+    height: 75px;
+    width: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    left: 29.75%;
+    border-style: none;
+    position: absolute;
+}
+
+.prev:hover
+{
+    background-color: rgb(85, 73, 223);
+}
+
+.prev:active
+{
+    background-color: rgb(113, 103, 220);
+}
+
+.prev p
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.next
+{
+    background-color: rgb(69, 56, 210);
+    cursor: pointer;
+    height: 75px;
+    width: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    right: 29.75%;
+    border-style: none;
+    position: absolute;
+}
+
+.next:hover
+{
+    background-color: rgb(85, 73, 223);
+}
+
+.next:active
+{
+    background-color: rgb(113, 103, 220);
+}
+
+.next p
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
 .fa-solid.fa-house
 {
     color: #130f7d;

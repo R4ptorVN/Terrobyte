@@ -4,12 +4,12 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "style_about.css">
-    <link rel = "icon" type = "image/jpg" href = "/images/plinhcutii.jpg">
     <script src = "https://kit.fontawesome.com/51c7e3f1d1.js" crossorigin = "anonymous"></script>
-
+    
     <head>
         
         <title>About Terrobyte</title>
+        <link rel = "icon" type = "image/jpg" href = "/images/plinhcutii.jpg">
 
     </head>
     
@@ -61,18 +61,19 @@
 
             <div id = "Hobbies">
 
-                <p> Billards </p>
+                <button class = "prev" onclick = "SlideLeft()"> <p>&#8592;</p> </button>
+                <button class = "next" onclick = "SlideRight()"> <p>&#8594;</p> </button>
+                <p id = "Hobby"> Billards </p>
+
 
                 <img src = "images/Billards.jpg" id = "HobbiesImages"> 
 
             </div>
 
-
-
-            
-
         <section>
 
     </body>
+
+    <script src = "script.js"></script>
 
 </html>
