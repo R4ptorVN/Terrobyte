@@ -30,18 +30,36 @@ function GetOption()
         GameOutput.innerHTML = (`<img src = "images/Despair.png">`);
 }
 
+let HobbiesImages = [];
+HobbiesImages.push("images/Billards.jpg");
+HobbiesImages.push("images/Gaming.png");
+HobbiesImages.push("images/FigureCollecting.jpg");
+HobbiesImages.push("images/ReadingMangaAndNovels.jpg");
+
 let Hobbies = [];
-Hobbies.push(`<img src = "images/Billards.jpg">`);
+Hobbies.push(`Billards`);
+Hobbies.push(`Gaming`);
+Hobbies.push(`Figure Collecting`);
+Hobbies.push(`Reading Light Novels`);
 
 let StatusChange2 = 0;
 
 function SlideRight()
 {
     StatusChange2++;
-    if(StatusChange2 % 2 != 0)
-        document.getElementById("Hobby").textContent = `Video Games`;
-    else
-        document.getElementById("Hobby").textContent = `Billards`;
+    if(StatusChange2 >= Hobbies.length)
+       StatusChange2 = 0;
+    document.getElementById("Hobby").textContent = Hobbies[StatusChange2];
+    document.getElementById("HobbiesImages").src = HobbiesImages[StatusChange2];
+}
+
+function SlideLeft()
+{
+    StatusChange2--;
+    if(StatusChange2 < 0)
+       StatusChange2 = Hobbies.length - 1;
+    document.getElementById("Hobby").textContent = Hobbies[StatusChange2];
+    document.getElementById("HobbiesImages").src = HobbiesImages[StatusChange2];
 }
 
 
