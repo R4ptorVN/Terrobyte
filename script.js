@@ -37,7 +37,7 @@ HobbiesImages.push("images/FigureCollecting.jpg");
 HobbiesImages.push("images/ReadingMangaAndNovels.jpg");
 
 let Hobbies = [];
-Hobbies.push(`Billards`);
+Hobbies.push(`Billiards`);
 Hobbies.push(`Gaming`);
 Hobbies.push(`Figure Collecting`);
 Hobbies.push(`Reading Light Novels`);

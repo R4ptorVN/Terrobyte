@@ -129,12 +129,12 @@ header
 .social-media
 {
     margin-top: -350px;
-    margin-right: 0px;
 }
 
 .social-media a
 {
     display: block;
+    width: 30px;
     margin-left: 3px;
     padding: 10px;
 }
