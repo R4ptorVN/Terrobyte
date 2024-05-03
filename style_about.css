@@ -121,6 +121,13 @@ header
     margin-left: 150px;
     user-select: none;
 }
+#FirstWord button
+{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
 
 #Introduction
 {
@@ -230,4 +237,9 @@ header
 .fa-solid.fa-house
 {
     color: #130f7d;
+}
+
+.fa-solid.fa-heart
+{
+    color: white;
 }

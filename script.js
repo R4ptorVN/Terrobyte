@@ -61,4 +61,15 @@ function SlideLeft()
     document.getElementById("HobbiesImages").src = HobbiesImages[StatusChange2];
 }
 
+let HeartStatus = 0;
+function ChangeHeart()
+{
+    const HeartColor = document.getElementById("Heart");
+    if(HeartStatus == 0)
+       HeartColor.style.color = "red";
+    else 
+       HeartColor.style.color = "white";
+    HeartStatus ^= 1;
+}
+
 
