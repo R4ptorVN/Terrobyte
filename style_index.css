@@ -9,6 +9,11 @@ button
       cursor: pointer;
 }
 
+::-webkit-scrollbar
+{
+    display: none;
+}
+
 body
 {
     font-family: "lucida console";

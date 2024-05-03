@@ -2,7 +2,6 @@ let StatusChange1 = 0;
 
 function ChangeStatus()
 {
-    StatusChange1++;
     if(StatusChange1 == 51)
     {
         document.getElementById("Po").textContent =  `Oh no! Po is out of breathe!`;
